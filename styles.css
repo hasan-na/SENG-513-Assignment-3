@@ -18,7 +18,7 @@ h1{
 
 .top-container {
     display: flex; 
-    max-height: 100px;
+    max-height: 90px;
     align-items: center;
     width: 100%;
     background-color: #0074E4;
@@ -35,6 +35,17 @@ h1{
     margin-left: 2%;
   }
 
+  .status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .turn{
+    color: #FF4136;
+  }
+
   .board {
     display: grid;
     background-color:  #0074E4;
@@ -42,7 +53,7 @@ h1{
     grid-gap: 5px;
     width: 720px;
     margin: 0 auto;
-    margin-top: 7%;
+    margin-top: 2%;
     padding: 2%;
 }
 
@@ -97,7 +108,21 @@ h1{
   color: #FFD700
 }
 
-.start-game{
+.draw{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 5%;
+}
+
+.draw-text{
+  color:  #FF7518;
+}
+
+.draw-score{
+  color: #FF7518;
+}
+
+.buttons-for-game{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +130,7 @@ h1{
 }
 
 
-.style-button {
+.start-game{
   background-color: #3498db; 
   color: #fff; 
   padding: 10px 20px; 
@@ -115,10 +140,29 @@ h1{
   width: 150px;
 }
 
-.style-button:hover{
+.start-game:hover{
   background-color: #2980b9;
 }
 
-.style-button:active {
+.start-game:active {
+  background-color: #1c4966;
+}
+
+.reset-game{
+  background-color: #3498db; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  width: 150px;
+  margin-left: 50px;
+}
+
+.reset-game:hover{
+  background-color: #2980b9;
+}
+
+.reset-game:active {
   background-color: #1c4966;
 }
