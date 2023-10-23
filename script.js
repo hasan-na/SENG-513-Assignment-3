@@ -28,7 +28,7 @@ function checkWinCondition(row, column){
 }
 
 //Checks to see if the game ended in a stalemate instead of someone winning
-function draw(row, column){
+function draw(){
 
 }
 
@@ -38,7 +38,7 @@ function updateStatus(){
 }
 
 //update the gameboard when someone makes a move
-function updateBoard(){
+function updateBoard(row, column){
 
 }
 
