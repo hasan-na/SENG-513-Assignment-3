@@ -48,8 +48,24 @@ h1{
     margin-top: 2%;
   }
 
-  .turn{
+  .player1-turn{
     color: #FF4136;
+  }
+
+  .player2-turn{
+    display: none;
+  }
+
+  .player1-win{
+    display: none;
+  }
+
+  .player2-win{
+    display: none;
+  }
+
+  .status-draw{
+    display: none;
   }
 
   .board {
