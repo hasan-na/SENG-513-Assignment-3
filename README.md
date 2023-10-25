@@ -1,5 +1,7 @@
 # Game Overview
 
+Name: Hasan Nassar
+
 Title: Connect 4
 
 Target Platform: Desktop
