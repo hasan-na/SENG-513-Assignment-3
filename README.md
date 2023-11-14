@@ -14,4 +14,4 @@ Rules of Game: 1) You cannot override another persons piece if the desired cell 
                2) Once a cell has been selected you cannot redo your turn.
                3) There are no penalities, bonuses or special conditions.
 
-Game Mechanics: The player whos turn is currently taking place must chose a cell to place there piece in. Once the cell has been selected the players turn is over and the turn proceeds to the other player present. Once the second player decides the cell they want to place their piece, once they place it their turn is over. This continues until someone wins or the game end in a draw. 
+Game Mechanics: Press start game button in order to start the game. The player whos turn is currently taking place must chose a cell to place there piece in. Once the cell has been selected the players turn is over and the turn proceeds to the other player present. Once the second player decides the cell they want to place their piece, once they place it their turn is over. This continues until someone wins or the game end in a draw. 
