@@ -22,17 +22,17 @@
 
         <div class="player1">
             <p class="player1-text"> Player 1</p>
-            <p class="player1-score"> Score: 0 </p>
+            <p class="player1-score" id="player1-score"> Score: 0 </p>
         </div>
-
+        
         <div class="player2">
             <p class="player2-text"> Player 2</p>
-            <p class="player2-score"> Score: 0 </p>
+            <p class="player2-score" id="player2-score"> Score: 0 </p>
         </div>
-
+        
         <div class="draw">
             <p class="draw-text"> Draw </p>
-            <p class="draw-score"> Score: 0 </p>
+            <p class="draw-score" id="draw-score"> Score: 0 </p>
         </div>
 
         <div class="status">
@@ -89,8 +89,8 @@
         </div>
 
         <div class="buttons-for-game">
-            <button class="start-game"> Start Game </button>
-            <button class="reset-game"> Reset </button>
+            <button id="start-game" onclick="startGameListener()"> Start Game </button>
+            <button id="reset-game" onclick="resetGameListener()"> Reset </button>
         </div>
 
         <script src="script.js"></script>
