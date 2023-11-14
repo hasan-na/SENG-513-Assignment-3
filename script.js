@@ -33,11 +33,6 @@ player1WinStatus.style.display = 'none';
 player2WinStatus.style.display = 'none';
 drawStatus.style.display = 'none';
 
-// Initialize the game board when the DOM is loaded
-document.addEventListener('DOMContentLoaded', function () {
-    initializeGame();
-});
-
 // Creates the game board to play the game
 function initializeBoard(rows, columns) {
     const boardElement = document.querySelector('.board');
